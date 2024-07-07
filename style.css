@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #39ff14; /* Neon green */
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: #ff00ff; /* Neon pink */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0099; /* Lighter neon pink */
+}
+
+#feedback {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+#score {
+    font-size: 1.2rem;
+}
+
+#bestScore {
+    color: #ff00ff; /* Neon pink */
+    font-weight: bold;
+}
